@@ -12,7 +12,7 @@ Time spent: **11** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.4
   - [x] GIF Walkthrough: 
-    - <img src='XSS.gif' title='User Enumeration' width='' alt='' />
+    - <img src='XSS2.gif' title='User Enumeration' width='' alt='' />
   - [x] Steps to recreate: 
     - Create a new post, and then put this code ```<a href = "[caption code=">]</a><a title="onmouseover= alert('')" >Link</a>``` in the content link. Finally click link to show message in the preview of post.
   - [x] Affected source code:
@@ -36,7 +36,7 @@ Time spent: **11** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.4
   - [x] GIF Walkthrough: 
-    - <img src='XSS2.gif' title='XSS2' width='' alt='' />
+    - <img src='XSS.gif' title='XSS2' width='' alt='' />
   - [x] Steps to recreate: 
     - View a new post, and insert code ```<abbr title='wpdistillery' onmouseover='alert(1)' style='position:fixed;top:0;left:0;width:100%;height:100%'>``` on the comment uder this post. Then it shows 1 when you view the comment of this post in future.
   - [x] Affected source code:
